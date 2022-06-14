@@ -13,9 +13,4 @@ public class HelloController {
 		return "Welcome to Hello World!....Hello Satheesh Chepuri";
 	}
 
-	@GetMapping("/hi")
-	public String say() {
-		return "Welcome to New World";
-	}
-
 }
